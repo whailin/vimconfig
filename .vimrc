@@ -19,3 +19,23 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 
 "---------STL--------------------"
 set tags+=~/.vim/tags/cpp_src/tags
+
+set backspace=indent,eol,start
+
+"1.设置制表符宽度
+:set tabstop=4
+:set softtabstop=4
+"2.设置缩进的空格数
+:set shiftwidth=4
+"3.每行的缩进值与上一行相等
+:set autoindent
+"4.使用 C/C++ 语言的自动缩进方式
+:set cindent
+"5.显示行号
+:set nu
+"6.将搜索内容反白
+:set hlsearch
+"7.可以删除任意值
+:set backspace=2
+" public
+set cinoptions=g0
